@@ -4,3 +4,12 @@ This github repo that contains three notebooks that use the [amharic-news-catego
 * [xlm-roberta-base](https://huggingface.co/FacebookAI/xlm-roberta-base) : a multilingual transformer model with 280M parameters
 * [bert-small-amharic](https://huggingface.co/rasyosef/bert-small-amharic) : a new amharic version of the bert-small transformer model with 25.7M parameters, pretrained from scratch using unlabelled amharic text data
 * [bert-mini-amharic](https://huggingface.co/rasyosef/bert-mini-amharic) : a new amharic version of the bert-mini transformer model with 9.67M parameters, pretrained from scratch using unlabelled amharic text data
+
+### Fine-tuned Model Performance
+Since this is a multi-class classification task, the reported precision, recall, and f1 metrics are macro averages.
+
+|Model|Accuracy|Precision|Recall|F1|
+|-----|--------|---------|------|--|
+|xlm-roberta-base|0.9|0.88|0.88|0.88|
+|bert-small-amharic|0.89|0.86|0.87|0.86|
+|bert-mini-amharic|0.87|0.83|0.83|0.83|
